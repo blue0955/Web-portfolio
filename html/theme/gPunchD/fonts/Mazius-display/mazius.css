@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Mazius-display';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Mazius Italic'), url('./woff2/MAZIUSREVIEW20.09-Italic.woff2') format('woff2'), url('./woff/MAZIUSREVIEW20.09-Italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Mazius-display';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Mazius Regular'), url('./woff2/MAZIUSREVIEW20.09-Regular.woff2') format('woff2'), url('./woff/MAZIUSREVIEW20.09-Regular.woff') format('woff');
+}

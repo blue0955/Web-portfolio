@@ -1,0 +1,66 @@
+@charset "utf-8"; 
+/* 갤러리2 새글 스킨 (latest) */
+
+.galleryLat {position:relative; margin-bottom:20px; overflow:hidden; text-align:center; }
+.galleryLat .galleryLatTit {display:block; }
+.galleryLat .galleryLatTit a{color:#ddd; display:inline-block; position:relative; margin:0 auto 10px; padding:20px; font-size:20px; text-align:center; }
+.galleryLat .galleryLatTit a u{display:block; width:50px; height:1px; background:#ddd; position:absolute; left:50%; bottom:0px; margin-left:-25px; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+div:hover.galleryLat .galleryLatTit a u{width:100px;  margin-left:-50px;  }
+
+.galleryLat ul{overflow:hidden; padding:20px 0; margin:0; min-height:204px;}
+.galleryLat ul li{width:100%;}
+.galleryLat ul li + li{margin-top: 5rem;}
+.galleryLat ul li a{display:block; position:relative; }
+.galleryLat ul li a em{display:block; font-style:normal; position:absolute; left:5px; top:5px; }
+.galleryLat ul li a > b{display:block; text-align:center;font-size: 1.76rem;margin-top: 3.78rem;overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:center; width:100%; }
+.galleryLat ul li a .bo_cate_link{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+    margin: 1.2rem 0 0 0;
+    border: 1px solid var(--white);
+    padding: 0.6rem 1.2rem;
+    height: auto;
+    color: var(--white);
+    border-radius: 3rem;
+}
+.galleryLat ul li a > i u{display:block; text-decoration:none; font-style:normal; position:absolute; left:0; top:50%; width:100%; margin-top:-10px; height:20px; line-height:20px; font-size:12px; color:rgba(255,255,255,0.5); }
+.galleryLat ul li a > i{display:block; position:relative; overflow:hidden;border-radius: 1.5rem; }
+.galleryLat ul li a > i img{display:block; width:100%; height:auto; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+.galleryLat ul li a:hover > i img{transform: scale(1.1); -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+.galleryLat ul li a > i .youtube_img{display:block; position:absolute; left:0px; top:0px; right:0px; bottom:0px; width:100%; overflow:hidden; background-repeat:no-repeat; background-size:auto 200%; background-color:#333; background-position:center center; -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+.galleryLat ul li a:hover > i .youtube_img{background-size:auto 220%; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+.galleryLat li a span{font-size:14px; }
+.bo_cate_wrapper{
+    display: flex;
+    grid-column-gap: 0.8rem;
+}
+.galleryLat li .fa-heart{color:#ff0000; }
+.galleryLat li .fa-lock{display: inline-block; font-size:11px; line-height: 14px; width: 16px; color: #999; background: #efefef; text-align: center; border-radius: 2px; font-size: 12px; border:1px solid #ddd}
+.galleryLat li .new_icon{display:inline-block; font-size:11px; width: 16px; line-height:16px; color:#fff; background:#ff6600; text-align:center; border-radius: 50%; }
+.galleryLat li .hot_icon{display:inline-block; font-size:11px; width: 16px; line-height:16px ; color:#fff; background:#e52955; text-align:center; border-radius: 50%; }
+
+.galleryLat .lt_more {clear:both; font-size:12px; font-weight:bold; display:inline-block; padding:10px 30px; color:RGBA(255,255,255,0.7); border-radius:50px; text-align:center; margin:20px auto 0; background:#333; border:2px solid rgba(0,0,0,0.15); -webkit-transition-duration: 0.2s; -webkit-transition-timing-function: ease; transition-duration: 0.2s; transition-timing-function: ease; }
+.galleryLat .lt_more:hover{color:#fff; border:2px solid rgba(0,0,0,0.5);}
+.galleryLat .lt_more > i{display:inline-block; padding-left:10px; font-size:14px;}
+
+.galleryLat .fa-youtube-play{font-size:18px; vertical-align:middle; }
+
+.galleryLat .empty_li {width:100% !important; line-height:204px; min-height:204px; color:#999; text-align:center; padding:0;}
+
+@media screen and (max-width: 991px) {
+    .projects-featured {
+        max-width: 65%;
+    }
+}
+@media all and (max-width:650px)
+{
+	.galleryLat .galleryLatTit a{ font-size:16px; }
+
+	.galleryLat .lt_more{font-size:11px; letter-spacing:-0.05em; padding:10px 15px; }
+
+
+
+}
+@media screen and (max-width: 479px) {
+    .projects-featured {
+        max-width: 100% !important;
+    }
+}

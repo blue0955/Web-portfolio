@@ -1,0 +1,11 @@
+@import url('./Pretendard-1.3.3/pretendard.css');
+@import url('./NeueHaas-display/neuehaas.css');
+@import url('./Mazius-display/mazius.css');
+@import url('./Ralway/ralway.css');
+
+:root {
+	--font-family-ptd : 'Pretendard', sans-serif;
+	--font-family-neu : 'NeueHaas-display', sans-serif;
+	--font-family-maz : 'Mazius-display', sans-serif;
+	--font-family-ralway : 'Ralway', sans-serif;
+}

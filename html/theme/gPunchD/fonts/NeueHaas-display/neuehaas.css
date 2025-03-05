@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'NeueHaas-display';
+	font-weight: 200;
+	font-display: swap;
+	src: local('NeueHaasDisplayThin'), 
+    url('./woff2/NeueHaasDisplayThin.woff2') format('woff2'),
+    url('./woff/NeueHaasDisplayThin.woff') format('woff');
+}
+@font-face {
+	font-family: 'NeueHaas-display';
+	font-weight: 300;
+	font-display: swap;
+	src: local('NeueHaasDisplayLight'), 
+    url('./woff2/NeueHaasDisplayLight.woff2') format('woff2'),
+    url('./woff/NeueHaasDisplayLight.woff') format('woff');
+}

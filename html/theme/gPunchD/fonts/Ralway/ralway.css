@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'Ralway';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Ralway Medium'), 
+    url('./woff2/Raleway-Medium.woff2') format('woff2'),
+    url('./woff/Raleway-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Ralway';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Ralway Regular'), 
+    url('./woff2/Raleway-Regular.woff2') format('woff2'), 
+    url('./woff/Raleway-Regular.woff') format('woff');
+}
