@@ -1,0 +1,23 @@
+name: Deploy to Dothome FTP
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 push될 때 실행
+
+jobs:
+  deploy:
+    name: 🚀 FTP Deploy to Dothome
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📂 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 🔄 FTP 업로드
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /html/  # 닷홈의 웹 루트 경로
