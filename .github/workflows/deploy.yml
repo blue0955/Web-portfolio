@@ -20,4 +20,4 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /html/  # 닷홈의 웹 루트 경로 
+          server-dir: /html/  # 닷홈의 웹 루트 경로
