@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: 📂 저장소 체크아웃
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: actions/checkout@v4
 
       - name: 🔄 FTP 업로드
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
