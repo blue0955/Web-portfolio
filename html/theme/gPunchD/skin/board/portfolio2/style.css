@@ -17,6 +17,7 @@
 .info h2 u .sv_member{color:RGBA(255,255,255,0.8) !important;}
 .wstPFtop:after{content:''; display:block; background:RGBA(0,0,0,0.3); position:absolute; left:0px; right:0px; top:0px; bottom:0px; z-index:1;}
 
+.prj-wrapper{max-width: 1680px;margin: 0 auto;}
 .prj_info{margin: 5rem 0 2rem 0;}
 .prj_tit{font-weight: 600;}
 .prj_info, .comment_wrapper{padding: 0 var(--padding);display: flex; justify-content: space-between;align-items: flex-start;}
@@ -140,7 +141,9 @@
 /* 글쓰기 */
 #wr_overview{width: 100%;min-height: 250px;}
 
-
+@media all and (max-width:1679px){
+	.prj-wrapper{ margin: 0 var(--padding);}
+}
 @media all and (max-width: 980px)
 {
 	.wstPFtop{margin-top:-30px;}

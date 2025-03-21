@@ -64,85 +64,87 @@ else if(isset($youtubeID1L[2]) && $youtubeID1L[2] == "youtube.com" || $youtubeID
 </div>
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
-<div class="prj_info flex-around">
-    <div class="prj_tit text-h4"><?php echo cut_str(get_text($view['wr_subject']), 70); // 제목 출력?></div>
-    <?php if (!empty($view['wr_link1'])): ?>
-    <a href="<?php echo htmlspecialchars($view['wr_link1'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" class="url-link C-button magnetic w-inline-block">
-        <div class="button-content">
-            <div class="text-btn">Visit Site</div>
-            <div class="arr_bg">
-                <div class="arr">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
-                        <path d="M2.48581 0.0164742C2.15672 0.011996 1.83981 0.140749 1.60709 0.373469C1.37437 0.606188 1.24562 0.923105 1.25009 1.25219C1.25009 1.93465 1.80334 2.4879 2.48581 2.4879L15.7821 2.4879L0.393333 17.8602C0.0627335 18.1682 -0.0733533 18.6322 0.0384602 19.07C0.150274 19.5078 0.492154 19.8497 0.929981 19.9615C1.36781 20.0734 1.83175 19.9373 2.13981 19.6067L17.5286 4.2179L17.5286 17.5142C17.5286 18.1967 18.0818 18.7499 18.7643 18.7499C19.4468 18.7499 20 18.1967 20 17.5142L20 1.23571C20 0.553247 19.4468 -1.5288e-06 18.7643 -1.49897e-06L2.48581 0.0164742Z" fill="currentColor"/>
-                    </svg>
+<div class="prj-wrapper">
+    <div class="prj_info flex-around">
+        <div class="prj_tit text-h4"><?php echo cut_str(get_text($view['wr_subject']), 70); // 제목 출력?></div>
+        <?php if (!empty($view['wr_link1'])): ?>
+        <a href="<?php echo htmlspecialchars($view['wr_link1'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" class="url-link C-button magnetic w-inline-block">
+            <div class="button-content">
+                <div class="text-btn">Visit Site</div>
+                <div class="arr_bg">
+                    <div class="arr">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+                            <path d="M2.48581 0.0164742C2.15672 0.011996 1.83981 0.140749 1.60709 0.373469C1.37437 0.606188 1.24562 0.923105 1.25009 1.25219C1.25009 1.93465 1.80334 2.4879 2.48581 2.4879L15.7821 2.4879L0.393333 17.8602C0.0627335 18.1682 -0.0733533 18.6322 0.0384602 19.07C0.150274 19.5078 0.492154 19.8497 0.929981 19.9615C1.36781 20.0734 1.83175 19.9373 2.13981 19.6067L17.5286 4.2179L17.5286 17.5142C17.5286 18.1967 18.0818 18.7499 18.7643 18.7499C19.4468 18.7499 20 18.1967 20 17.5142L20 1.23571C20 0.553247 19.4468 -1.5288e-06 18.7643 -1.49897e-06L2.48581 0.0164742Z" fill="currentColor"/>
+                        </svg>
+                    </div>
                 </div>
+                <img src="" alt="" class="button-icon">
             </div>
-            <img src="" alt="" class="button-icon">
-        </div>
-    </a>
-    <?php endif; ?>
-
-    <?php if (!empty($view['wr_link2'])): ?>
-    <a href="<?php echo htmlspecialchars($view['wr_link2'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" class="url-link C-button magnetic w-inline-block">
-        <div class="button-content">
-            <div class="text-btn">Visit Site</div>
-            <div class="arr_bg">
-                <div class="arr">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
-                        <path d="M2.48581 0.0164742C2.15672 0.011996 1.83981 0.140749 1.60709 0.373469C1.37437 0.606188 1.24562 0.923105 1.25009 1.25219C1.25009 1.93465 1.80334 2.4879 2.48581 2.4879L15.7821 2.4879L0.393333 17.8602C0.0627335 18.1682 -0.0733533 18.6322 0.0384602 19.07C0.150274 19.5078 0.492154 19.8497 0.929981 19.9615C1.36781 20.0734 1.83175 19.9373 2.13981 19.6067L17.5286 4.2179L17.5286 17.5142C17.5286 18.1967 18.0818 18.7499 18.7643 18.7499C19.4468 18.7499 20 18.1967 20 17.5142L20 1.23571C20 0.553247 19.4468 -1.5288e-06 18.7643 -1.49897e-06L2.48581 0.0164742Z" fill="currentColor"/>
-                    </svg>
+        </a>
+        <?php endif; ?>
+    
+        <?php if (!empty($view['wr_link2'])): ?>
+        <a href="<?php echo htmlspecialchars($view['wr_link2'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" class="url-link C-button magnetic w-inline-block">
+            <div class="button-content">
+                <div class="text-btn">Visit Site</div>
+                <div class="arr_bg">
+                    <div class="arr">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
+                            <path d="M2.48581 0.0164742C2.15672 0.011996 1.83981 0.140749 1.60709 0.373469C1.37437 0.606188 1.24562 0.923105 1.25009 1.25219C1.25009 1.93465 1.80334 2.4879 2.48581 2.4879L15.7821 2.4879L0.393333 17.8602C0.0627335 18.1682 -0.0733533 18.6322 0.0384602 19.07C0.150274 19.5078 0.492154 19.8497 0.929981 19.9615C1.36781 20.0734 1.83175 19.9373 2.13981 19.6067L17.5286 4.2179L17.5286 17.5142C17.5286 18.1967 18.0818 18.7499 18.7643 18.7499C19.4468 18.7499 20 18.1967 20 17.5142L20 1.23571C20 0.553247 19.4468 -1.5288e-06 18.7643 -1.49897e-06L2.48581 0.0164742Z" fill="currentColor"/>
+                        </svg>
+                    </div>
                 </div>
+                <img src="" alt="" class="button-icon">
             </div>
-            <img src="" alt="" class="button-icon">
-        </div>
-    </a>
-    <?php endif; ?>
-
-</div>
-<article class="comment_wrapper">
-    <div class="col left_con">
-        <!-- CLIENT -->
-        <div class="client flex-around">
-            <div class="text-h7">CLIENT</div>
-            <p class="txts">
-                <?php echo cut_str(get_text($view['wr_subject']), 70); // 제목 출력 ?>
-            </p>
-        </div>
-
-        <!-- SERVICE -->
-        <div class="service flex-around">
-            <div class="text-h7">SERVICE</div>
-            <div class="ca_wrapper">
-                <?php
-                // 카테고리 출력
-                $categories = explode(',', $view['ca_name']);
-                foreach ($categories as $category) {
-                    $category = trim($category);
-                    if (!empty($category)) {
-                        echo "<span class='ca_tag'>" . htmlspecialchars($category, ENT_QUOTES, 'UTF-8') . "</span>";
+        </a>
+        <?php endif; ?>
+    
+    </div>
+    <article class="comment_wrapper">
+        <div class="col left_con">
+            <!-- CLIENT -->
+            <div class="client flex-around">
+                <div class="text-h7">CLIENT</div>
+                <p class="txts">
+                    <?php echo cut_str(get_text($view['wr_subject']), 70); // 제목 출력 ?>
+                </p>
+            </div>
+    
+            <!-- SERVICE -->
+            <div class="service flex-around">
+                <div class="text-h7">SERVICE</div>
+                <div class="ca_wrapper">
+                    <?php
+                    // 카테고리 출력
+                    $categories = explode(',', $view['ca_name']);
+                    foreach ($categories as $category) {
+                        $category = trim($category);
+                        if (!empty($category)) {
+                            echo "<span class='ca_tag'>" . htmlspecialchars($category, ENT_QUOTES, 'UTF-8') . "</span>";
+                        }
                     }
-                }
-                ?>
+                    ?>
+                </div>
+            </div>
+    
+            <!-- TIMELINE -->
+            <div class="timeline flex-around">
+                <div class="text-h7">TIMELINE</div>
+                <p class="txts">
+                    <?php echo htmlspecialchars($view['wr_timeline'], ENT_QUOTES, 'UTF-8'); ?>
+                </p>
             </div>
         </div>
-
-        <!-- TIMELINE -->
-        <div class="timeline flex-around">
-            <div class="text-h7">TIMELINE</div>
+    
+        <div class="col overview flex-around">
+            <!-- OVERVIEW -->
+            <div class="text-h7">OVERVIEW</div>
             <p class="txts">
-                <?php echo htmlspecialchars($view['wr_timeline'], ENT_QUOTES, 'UTF-8'); ?>
+                <?php echo nl2br(htmlspecialchars($view['wr_overview'], ENT_QUOTES, 'UTF-8')); ?>
             </p>
         </div>
-    </div>
-
-    <div class="col overview flex-around">
-        <!-- OVERVIEW -->
-        <div class="text-h7">OVERVIEW</div>
-        <p class="txts">
-            <?php echo nl2br(htmlspecialchars($view['wr_overview'], ENT_QUOTES, 'UTF-8')); ?>
-        </p>
-    </div>
-</article>
+    </article>
+</div>
 
 
 <!-- 게시물 읽기 시작 { -->
