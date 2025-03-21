@@ -1,5 +1,3 @@
-/* copyright(c) WEBsiting.co.kr */
-
 $(document).ready(function(){
 	/* 스크롤 탑 버튼 */
 	$("#top_btn").hide();

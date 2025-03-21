@@ -1,9 +1,4 @@
 @charset "utf-8";
-/* 
-	copyright(c) WEBsiting.co.kr 
-	모바일화면 관련 css파일입니다.
-	각 넓이에 따른 스타일 설정이 가능합니다.
-*/
 
 /* 디바이스 981px 이상에서 적용*/
 @media all and (min-width: 981px) {

@@ -65,8 +65,7 @@
 .gall_row  > li.gallWST.col-gn-9{width:11.11111111% !important; }
 .gall_row  > li.gallWST.col-gn-10{width:10% !important; }
 
-#bo_portfolioBoxWst .gall_now .gall_text_href a {color:#ffff33}
-
+#bo_portfolioBoxWst .gall_row .gall_text_href{margin-bottom: 2rem;}
 #bo_portfolioBoxWst .gall_href a:link, #bo_portfolioBoxWst .gall_href a:focus, #bo_portfolioBoxWst .gall_href a:hover {text-decoration:none}
 #bo_portfolioBoxWst .gall_boxa{text-align:center; position:relative; }
 #bo_portfolioBoxWst .gall_boxa a,#bo_portfolioBoxWst .gall_img .no_image,#bo_portfolioBoxWst .gall_img .is_notice{display:block}
@@ -103,7 +102,6 @@
 #bo_portfolioBoxWst .gall_box:hover .gall_boxa{background:#222; }
 #bo_portfolioBoxWst .gall_box:hover .gall_boxa a .imgAr img{/*filter:Alpha(opacity=50); opacity:0.5; -moz-opacity:0.5;*/ transform: scale(1.1); }
 
-#bo_portfolioBoxWst .gall_text_href {padding:10px; }
 #bo_portfolioBoxWst .gall_text_href a {color:var(--black); }
 /* #bo_portfolioBoxWst .gall_text_href .ca_wrapper{
 	display: flex;
@@ -180,9 +178,8 @@
 	{width:50% !important; }
 	.gall_row  > li.gallWST.col-gn-1,.gall_row  > li.gallWST.col-gn-2{width:100% !important; }
 	#bo_portfolioBoxWst #gall_ul{grid-template-columns: repeat(1, 100%);}
-	#bo_portfolioBoxWst {padding:5px 5px 0;}
-	.gall_row > li.gallWST{padding:5px;}
-	
+	.gall_row > li.gallWST{padding:0;}	
+	#bo_portfolioBoxWst .gall_row .gall_text_href{margin-bottom: 0;}
 	.wstPFtop{font-size:20px; padding:120px 15px;}
 }
 @media all and (max-width:480px){
