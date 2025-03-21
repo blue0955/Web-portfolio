@@ -128,7 +128,7 @@
 #bo_portfolioBoxWst .bo_cate_link{display:block; filter:Alpha(opacity=50); opacity:0.5; -moz-opacity:0.5; text-align:center; font-size:11px; }
 
 .noDataArea{margin-bottom:20px; }
-.list_btn{text-align: center;margin-bottom: 3rem;}
+.list_btn{text-align: center;margin: 4rem auto 7rem;}
 .bg_wrap{
 	width: 100%;
     height: 100%;
@@ -141,7 +141,7 @@
 /* 글쓰기 */
 #wr_overview{width: 100%;min-height: 250px;}
 
-@media all and (max-width:1679px){
+@media all and (max-width:1680px){
 	.prj-wrapper{ margin: 0 var(--padding);}
 }
 @media all and (max-width: 980px)
@@ -192,4 +192,5 @@
 	.bo_v_util li .tit_wrap{margin-top: 0;}
 	.bo_v_nb li i{display: none;}
 	.bo_v_util li .tit_wrap span{margin-bottom: 0.3rem;}
+	.list_btn{margin: 1rem auto 3.5rem;}
 }
