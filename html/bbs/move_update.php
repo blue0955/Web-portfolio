@@ -114,7 +114,9 @@ while ($row = sql_fetch_array($result))
                              wr_7 = '".addslashes($row2['wr_7'])."',
                              wr_8 = '".addslashes($row2['wr_8'])."',
                              wr_9 = '".addslashes($row2['wr_9'])."',
-                             wr_10 = '".addslashes($row2['wr_10'])."' ";
+                             wr_10 = '".addslashes($row2['wr_10'])."',
+                             wr_overview = '".addslashes($row2['wr_overview'])."',
+                             wr_timeline = '".addslashes($row2['wr_timeline'])."' ";
             sql_query($sql);
 
             $insert_id = sql_insert_id();
